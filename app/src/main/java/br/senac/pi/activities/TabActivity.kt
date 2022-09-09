@@ -23,7 +23,7 @@ class TabActivity : AppCompatActivity() {
         //Trata os ícones ou texto das abas, para cada posição
         TabLayoutMediator(binding.tabLayout, binding.viewPager) { aba, posicao ->
             when(posicao) {
-                1 -> aba.icon = getDrawable(R.drawable.person)
+                1 -> aba.icon = getDrawable(R.drawable.person)//aba.text = "exemplo"
                 2 -> aba.icon = getDrawable(R.drawable.album)
                 else -> aba.icon = getDrawable(R.drawable.history)
             }

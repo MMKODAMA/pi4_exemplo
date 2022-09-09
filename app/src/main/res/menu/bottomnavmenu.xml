@@ -11,12 +11,18 @@
     <item
         android:id="@+id/artistas"
         android:icon="@drawable/person"
-        android:title="Artistas"
+        android:title="@string/artistas"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/albuns"
         android:icon="@drawable/album"
-        android:title="Álbuns"
+        android:title="@string/lbuns"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"
+        />
 
 </menu>
